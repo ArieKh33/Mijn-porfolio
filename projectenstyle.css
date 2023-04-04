@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(237, 237, 242);
+    background: linear-gradient(#be2e2e, #adb3f4);
+    min-height: 200vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 3, 3);
+    width: 100%;
+}
+
+.nav_rechts {
+    list-style: none;
+}
+
+.nav_rechts li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_rechts li a:hover {
+    color: rgb(47, 246, 243);
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.afgemaakte_projecten1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.afgemaakte_projecten2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.afgemaakte_projecten3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.afgemaakte_projecten4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.beschrijving {
+    border-style: solid;
+    font-size: x-large;
+    width: 50%;
+}
+
+.project1 {
+    width: 70%;
+    border-style: solid;
+}
+
+.huidige_projecten {
+    display: flex;
+}
+.scrum_foto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
