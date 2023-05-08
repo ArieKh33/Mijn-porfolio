@@ -1,42 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Welkom bij mijn portfolio</title>
-</head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Blog</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+            <script src="./tooltips.js" defer></script>
+            
+        </head>
 <body>
-    <header>
-        <h2>
-        <a href="index.html">Arie Kharamany</a>
-        </h2>
-        <ul class="nav_rechts">
-            <li><a href="waar_ik_studeer.html">Waar ik studeer</a></li>
-            <li><a href="wat_zoek_ik.html">Wat zoek ik?</a></li>
-            <li><a href="contact.html">Contactgegevens</a></li>
-            <li><a href="projecten.html">projecten</a></li>
-        </ul>
-    </header>
-<section class="introductie">
-    <article class="alinea">
-        <h2> Introductie</h2>
-        <p> Ik ben Arie en ik studeer software developer in het ROC Midden Nederland. Ik ben geboren in Utrecht en heb een lang geschiedenis met computers, van het in elkaar zetten van computers en software ontwikkelen.</p>
-    </article>
-    <article class="bit_foto">
-        <img class="foto_index" src="linkedin_background.png" alt="">
-    </article>
-    <article class="alinea">
-        <h2>Mijn sterktepunten</h2>
-        <p>Waar ik het meest trots heb is op het focus dat ik heb, met projecten die lang doorgaan ben ik altijd voorbereid, en als je iets doet dat je leuk vind is het soms om er niet aan te werken.</p>
-    </article>
-</section>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
     
-<footer>
-    <p class="adres">Locatie: Utrecht, Overvecht</p>
-</footer>
+        <a href="index.html" class="navbar-brand mb-0 h3 text-light ">Arie Kharamany</a>
+        
+        <button type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler text-light navbar-dark ms-auto"
+        aria-controls="navbarNav" 
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark "></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active ">
+                    <a href="#"
+                    class="nav-link active text-light">
+                    Skills
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active ">
+                    <a href="projecten.html" class="nav-link text-white-50">Projects</a>
+
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a href="#" class="nav-link text-white-50 dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    contact
+                    </a>
+                    <ul class="dropdown-menu"
+                        aria-labelledby="navbarDropdown">
+                        <li><a href="#" class="dropdown-item">Settings</a></li>
+                        <li><a href="#" class="dropdown-item btn btn-primar"  data-bs-toggle="modal" data-bs-target="#uitlogmodal">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+</nav>
+<div>
+    <div>
+        <img src="linkedin_background.png" class="w-100" alt="bit">
+    </div>
+</div>
+<h1 class="text-center">Skills</h1>
+<div class="container">
+    <div class="row g-3">
+        <div class="card">
+            <h2 class="text-center">Programming languages:</h2>
+
+                <div class="p-2">
+                    <h5>Bootstrap:</h5>
+                    <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 100%"></div>
+                      </div>
+                      <h5>HTML 5</h5>
+                      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-success" style="width: 80%"></div>
+                      </div>
+                      <h5>CSS 3</h5>
+                      <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 70%"></div>
+                      </div>
+                      <h5>PHP</h5>
+                      <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 65%"></div>
+                      </div>
+                      <h5>JavaScript</h5>
+                      <div class="progress " role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 65%"></div>
+                      </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="derdeproject1.png" alt="" class="card-img-top d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="derdeproject2.png" alt="" class="card-img-top d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="derdeproject3.png" alt="" class="card-img-top d-block">
+                    </div>
+                </div>
+            </div>
+                <div class="card-body">
+                    <h5 class="card-title">Project 1: 2 Verschillende databases</h5>
+                    <a href="#" class="card-text">Bekijk project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                <img src="vierdeproject.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Project 2: Het spel galgje op de browser</h5>
+                    <a href="#" class="card-text">Bekijk project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                <img src="tweedeproject2.png" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">project 3: Database met werkend inlog systeem</h5>
+                    <a href="#" class="card-text">Bekijk project</a>
+                </div>
+            </div>
+        </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                <img src="eersteproject.png" alt="eerste_project_html" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">project 4: Mijn eerste blog gemaakt met HTML 5</h5>
+                    <a href="#" class="card-text">Bekijk project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row g-2">
+        <div class="col">
+            <h2 class="text-center">Contact</h2>
+
+            <form action="index.html" class="container">
+                <div class="row">
+                    <label for="naam" class="form-label col-lg">Naam:</label><br>
+                    <input type="text" id="naam" class="form-control col-lg m-1"><br>
+                    <label for="email" class="form-label col-lg">Email:</label><br>
+                    <input type="text" id="email" class="form-control col-lg m-1"><br>
+                </div>
+                <label for="bedrijf" class="form-label">Bedrijf:</label><br>
+                <input type="text" id="bedrijf" class="form-control"><br>
+                <label for="bericht" class="form-label">Je bericht:</label><br>
+                <textarea id="bericht" class="form-control"></textarea><br>
+                <input type="submit" class="btn btn-primary " value="Verzend">
+            </form>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="col text-center">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p class="text-center">Falklanddreef 79, 3563AH</p>
+            </div>
+
+            <div class="col text-center">
+                <i class="bi bi-telephone-fill"></i>
+                <p class="text-center">+ 06 244 070 52</p>
+            </div>
+
+            <div class="col text-center">
+                <i class="bi bi-envelope-at"></i>
+                <p class="text-center">akharamany04@gmail.com</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
