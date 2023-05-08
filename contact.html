@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact nemen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="./tooltips.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    
+        <a href="index.html" class="navbar-brand mb-0 h3 text-light ">Arie Kharamany</a>
+        
+        <button type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler text-light navbar-dark ms-auto"
+        aria-controls="navbarNav" 
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark "></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active ">
+                    <a href="aboutme.html"
+                    class="nav-link active text-white-50">
+                    About me
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active ">
+                    <a href="contact.html" class="nav-link text-light">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a href="projecten.html" class="nav-link text-white-50 dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Projects
+                    </a>
+                    <ul class="dropdown-menu"
+                        aria-labelledby="navbarDropdown">
+                        <li><a href="#" class="dropdown-item">current projecten</a></li>
+                        <li><a href="./projecten.html" class="dropdown-item btn btn-primary"  data-bs-toggle="modal">finished projects </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<div class="container">
+    <div class="row g-2">
+        <div class="col">
+            <h2 class="">Contact</h2>
+            <p>Heeft u intresse? verstuur gerust een email.</p>
+            <form action="index.html" class="container">
+                <div class="row">
+                    <label for="naam" class="form-label col-lg">Naam:</label><br>
+                    <input type="text" id="naam" class="form-control col-lg m-1"><br>
+                    <label for="email" class="form-label col-lg">Email:</label><br>
+                    <input type="text" id="email" class="form-control col-lg m-1"><br>
+                </div>
+                <label for="bedrijf" class="form-label">Bedrijf:</label><br>
+                <input type="text" id="bedrijf" class="form-control"><br>
+                <label for="bericht" class="form-label">U bericht:</label><br>
+                <textarea id="bericht" class="form-control"></textarea><br>
+                <input type="submit" class="btn btn-primary " value="Verzend">
+            </form>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <h2 class="text-center">Contactgegevens</h2>
+            <div class="col text-center">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p class="text-center">Falklanddreef 79, 3563AH</p>
+            </div>
+
+            <div class="col text-center">
+                <i class="bi bi-telephone-fill"></i>
+                <p class="text-center">+ 06 244 070 52</p>
+            </div>
+
+            <div class="col text-center">
+                <i class="bi bi-envelope-at"></i>
+                <p class="text-center">akharamany04@gmail.com</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
