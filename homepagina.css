@@ -1,0 +1,16 @@
+.achtergrond {
+    background-color: rgb(174, 199, 242);
+}
+
+.over {
+    color: rgb(2, 2, 83);
+}
+
+.card {
+    border-style: none;
+    box-shadow: 1px 2px #888888;
+}
+
+nav {
+    background-color: rgb(2, 2, 72);
+}
