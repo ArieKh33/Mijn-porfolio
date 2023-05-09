@@ -14,3 +14,37 @@
 nav {
     background-color: rgb(2, 2, 72);
 }
+
+.bar {
+    background-color: rgb(2, 2, 72);
+}
+
+.projectenaf {
+    color: rgb(2, 2, 83);
+}
+
+#projecten {
+    background-color: rgb(71, 71, 210);
+    border-style: none;
+    border-radius: 6px;
+    box-shadow: 1px 2px #888888;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: rgb(2, 2, 62);
+}
+
+.beschrijving-project {
+    background-color: aliceblue;
+    border-style: none;
+    box-shadow: 1px 2px #888888;
+    width: 75%;
+}
+
+.projectuitlegfoto {
+    width: 81%;
+    border-style: none;
+    box-shadow: 1px 2px #888888;
+}
