@@ -40,28 +40,23 @@ body {
     background-color: aliceblue;
     border-style: none;
     box-shadow: 1px 2px #888888;
-    width: 56%;
+    width: 89%;
 }
 
 .beschrijving-projectonder {
     background-color: aliceblue;
     border-style: none;
-    box-shadow: 1px 2px #888888;
-    width: 89%;
 }
 
 .talen {
     background-color: aliceblue;
     border-style: none;
     box-shadow: 1px 2px #888888;
-    width: 25%;
 }
 
 
 
 
 .projectuitlegfoto {
-    width: 89%;
     border-style: none;
-    box-shadow: 1px 2px #888888;
 }
