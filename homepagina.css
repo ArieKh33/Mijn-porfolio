@@ -40,7 +40,6 @@ body {
     background-color: aliceblue;
     border-style: none;
     box-shadow: 1px 2px #888888;
-    width: 89%;
 }
 
 .beschrijving-projectonder {
@@ -52,10 +51,15 @@ body {
     background-color: aliceblue;
     border-style: none;
     box-shadow: 1px 2px #888888;
+    width: 30%;
 }
-
-
-
+.contact {
+    background-color: aliceblue;
+    border-style: none;
+    box-shadow: 1px 2px #888888;
+    width: 35%;
+    display: flex;
+}
 
 .projectuitlegfoto {
     border-style: none;
